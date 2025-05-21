@@ -86,9 +86,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
     vendor/lineage/config/device_framework_matrix.xml
 
-DEVICE_MANIFEST_SKUS += nfc
-DEVICE_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/vintf/manifest_nfc.xml
-
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6877
 TARGET_KERNEL_CONFIG := ruby_defconfig
